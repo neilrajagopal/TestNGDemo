@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Gmail]">
+  <test name="NewTours - Login(failed)" preserve-order="true">
+    <classes>
+      <class name="login.LoginValidation">
+        <methods>
+          <include name="demoBfrSuite"/>
+          <include name="f" invocation-numbers="1"/>
+          <include name="demoAftSuite"/>
+        </methods>
+      </class> <!-- login.LoginValidation -->
+      <class name="bookingTickets.BookTicketsValidation">
+        <methods>
+          <include name="demoBfrSuite"/>
+          <include name="demoAftSuite"/>
+        </methods>
+      </class> <!-- bookingTickets.BookTicketsValidation -->
+    </classes>
+  </test> <!-- NewTours - Login(failed) -->
+</suite> <!-- Failed suite [Gmail] -->

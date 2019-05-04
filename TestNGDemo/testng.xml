@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="New Tours" verbose="2">
+<!-- <listeners>
+<listener class-name="testpack.TestListner"></listener>
+</listeners>  -->
+
+  <test name="NewTours - Login" >
+    <classes>
+       <class name="login.LoginValidation" />
+   </classes>
+  </test>
+
+	<test name="NewTours - BookTickets">
+		<classes>
+			<class name="bookingTickets.BookTicketsValidation"></class>
+		</classes>
+	</test> 
+</suite>
